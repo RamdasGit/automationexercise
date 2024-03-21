@@ -73,8 +73,7 @@ public class CheckOutPage extends BaseClass{
 		
 		downloadInvoice.click();
 		// Specify the path to the downloaded invoice file
-		String filePath = "C:\\Users\\s\\Desktop\\ExcelR Assignments\\files\\invoice.txt"; 
-
+		String filePath = "C:\\Users\\s\\Downloads\\invoice.txt"; 
 		// Create a File object with the specified file path
 		File file = new File(filePath);
 		downloadInvoice.click();
