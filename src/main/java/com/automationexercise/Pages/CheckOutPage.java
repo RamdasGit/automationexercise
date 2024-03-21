@@ -77,7 +77,8 @@ public class CheckOutPage extends BaseClass{
 
 		// Create a File object with the specified file path
 		File file = new File(filePath);
-
+		downloadInvoice.click();
+		
 		// Check if the file exists
 		if (file.exists()) {
 			System.out.println("Invoice downloaded successfully at: " + filePath);
